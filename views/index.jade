@@ -1,6 +1,7 @@
 extends layout
 
 block content
+  link(rel="stylesheet", href="/css/animate.css")
   br
 
   script.
@@ -19,8 +20,8 @@ block content
     img(src="/img/ncstatewide.png")
   h1.col-xs-12.col-sm-12.type-text
   .col-xs-12.col-md-8.col-md-offset-2
-    a(href="http://ncsu.qualtrics.com/jfe/form/SV_0pqtgtJJKBI6Mrb")
-      .btn.btn-block.btn-primary Click here to take the survey
+    a#survey-link(href="http://ncsu.qualtrics.com/jfe/form/SV_0pqtgtJJKBI6Mrb")
+      .btn.btn-block.btn-primary.animated.pulse Click here to take the survey
     br
     br
 
