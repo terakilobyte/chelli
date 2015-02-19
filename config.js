@@ -20,7 +20,7 @@ var config = {
       port: process.env.PORT
     },
     database: {
-      url: 'mongodb://terakilobyte:railroad88@dogen.mongohq.com:10008/app32292045'
+      url: 'mongodb://heroku:fzF2UxqtRtq12FqQROliqJooGZ3Ajvz2pQ-flfAARfO0p-dYIflerDmWgWbS1f_I5jM5_ShVWofpLx2sDHg-YQ@dogen.mongohq.com:10008/app32292045'
     }
   }
 };
