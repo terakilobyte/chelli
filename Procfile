@@ -1,1 +1,1 @@
-web: ./node_modules/.bin/nodemon -m 5 app.js
+web: ./node_modules/.bin/nodemon -L app.js
